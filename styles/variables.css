@@ -12,4 +12,6 @@
 
     --text-dark-blue: hsl(221, 14%, 31%);
     --text-white: hsl(0, 0%, 100%);
+
+    --border-radius: 10px;
 }

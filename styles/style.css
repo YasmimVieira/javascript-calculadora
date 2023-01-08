@@ -1,0 +1,21 @@
+@import url('./variables.css');
+@import url('./numbers.css');
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: var(--first-background-dark-blue);
+}
+
+.calculator {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator__title {
+    color: var(--text-white)
+}

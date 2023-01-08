@@ -1,0 +1,63 @@
+@import url('./variables.css');
+
+.calculator__result {
+    background-color: var(--thrid-background-dark-blue);
+    color: var(--text-white);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: end;
+    width: 80%;
+}
+
+.calculator__numbers {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--second-background-dark-blue);
+}
+
+.calculator__numbers__digit {
+    color: var(--text-dark-blue);
+    font-weight: 700;
+    font-size: 1.5rem;
+    background-color: var(--background-orange-light);
+    margin-top: 1rem;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.calculator__footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.calculator__footer__reset {
+    background-color: var(--background-blue-dark);
+    margin-right: 1rem;
+}
+
+.calculator__footer__equal {
+    background-color: var(--background-red);
+}
+
+.calculator__footer__reset,
+.calculator__footer__equal {
+    border: none;
+    color: var(--text-white);
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
