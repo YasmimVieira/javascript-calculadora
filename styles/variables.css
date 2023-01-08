@@ -1,0 +1,15 @@
+:root {
+    --first-background-dark-blue: hsl(222, 26%, 31%);
+    --second-background-dark-blue: hsl(223, 31%, 20%);
+    --thrid-background-dark-blue: hsl(224, 36%, 15%);
+
+    --background-blue-dark: hsl(225, 21%, 49%);
+    --shadow-blue-dark: hsl(224, 28%, 35%);
+    --background-red: hsl(6, 63%, 50%);
+    --shadow-red-dark: hsl(6, 70%, 34%);
+    --background-orange-light: hsl(30, 25%, 89%);
+    --shadow-orange: hsl(28, 16%, 65%);
+
+    --text-dark-blue: hsl(221, 14%, 31%);
+    --text-white: hsl(0, 0%, 100%);
+}
