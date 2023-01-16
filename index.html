@@ -11,31 +11,31 @@
 <body>
     <main class="calculator">
         <h1 class="calculator__title">Calculator</h1>
-        <input type="text" value="result">
+        <div type="text" class="calculator__result" id="result"></div>
         <section class="calculator__numbers">
-            <div class="calculator__numbers__digit" data-one>1</div>
-            <div class="calculator__numbers__digit" data-two>2</div>
-            <div class="calculator__numbers__digit" data-three>3</div>
-            <div class="calculator__numbers__digit" data-four>4</div>
-            <div class="calculator__numbers__digit" data-five>5</div>
-            <div class="calculator__numbers__digit" data-six>6</div>
-            <div class="calculator__numbers__digit" data-seven>7</div>
-            <div class="calculator__numbers__digit" data-eight>8</div>
-            <div class="calculator__numbers__digit" data-nine>9</div>
-            <div class="calculator__numbers__digit" data-plus>+</div>
-            <div class="calculator__numbers__digit" data->-</div>
-            <div class="calculator__numbers__digit" data-dot>.</div>
-            <div class="calculator__numbers__digit" data-zero>0</div>
-            <div class="calculator__numbers__digit" data-division>/</div>
-            <div class="calculator__numbers__digit" data->x</div>
+            <div class="calculator__numbers__digit" onclick="getNumbers('1')">1</div>
+            <div class="calculator__numbers__digit" >2</div>
+            <div class="calculator__numbers__digit" >3</div>
+            <div class="calculator__numbers__digit" >4</div>
+            <div class="calculator__numbers__digit" >5</div>
+            <div class="calculator__numbers__digit" >6</div>
+            <div class="calculator__numbers__digit" >7</div>
+            <div class="calculator__numbers__digit" >8</div>
+            <div class="calculator__numbers__digit" >9</div>
+            <div class="calculator__numbers__digit" onclick="getNumbers('+')">+</div>
+            <div class="calculator__numbers__digit" >-</div>
+            <div class="calculator__numbers__digit" >.</div>
+            <div class="calculator__numbers__digit" >0</div>
+            <div class="calculator__numbers__digit" >/</div>
+            <div class="calculator__numbers__digit" >x</div>
 
             <footer class="calculator__footer">
-                <button class="calculator__footer__reset" data-reset>Reset</button>
+                <button class="calculator__footer__reset" onclick="cleanResult()">Reset</button>
                 <button class="calculator__footer__equal" data-equal>=</button>
             </footer>
         </section>
     </main>
 
-    <script src="./app.js" type="module"></script>
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     font-weight: 700;
     text-align: end;
     width: 80%;
+    border: none;
 }
 
 .calculator__numbers {
